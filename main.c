@@ -165,6 +165,7 @@ int main(void) {
       } else if (buffer[0] == '2') {
         myAccount = login(myAccount);
       } else if (buffer[0] == '3') {
+        break;
       }
     }
   }
